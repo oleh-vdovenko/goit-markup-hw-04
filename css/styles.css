@@ -443,8 +443,11 @@ button.service-order:focus {
 
 .copyright-container {
   display: flex;
-  align-items: center;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.copyright-block {
+  margin-right: 120px;
 }
 
 .copyright-logo {
@@ -497,9 +500,6 @@ button.service-order:focus {
   background-color: #31d0aa;
 }
 
-.copyright-social-instagram,
-.copyright-social-twitter,
-.copyright-social-facebook,
-.copyright-social-linkedin {
+.copyright-social-icon {
   fill: #f4f4fd;
 }
